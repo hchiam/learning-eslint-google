@@ -1,10 +1,11 @@
 {
-  "name": "learning-eslint-google",
+  "name": "test-google-linter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
   },
   "author": "",
   "license": "ISC",

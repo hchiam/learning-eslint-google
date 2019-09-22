@@ -1,4 +1,6 @@
-Secret Sauce:
+# Learn ESLint with Google JS Style Guide
+
+## Secret Sauce:
 
 ```bash
 npm install --save-dev eslint
@@ -16,6 +18,35 @@ You should see .eslintrc.js and this inside it:
   'extends': [
     'google',
   ],
+```
+
+## Bonus Special: Command Line Use
+
+(Instead of only relying on editor.)
+
+package.json
+
+```json
+  "scripts": {
+    ...
+    // insert this:
+    "lint": "eslint ./" // ./
+  },
+```
+
+Then in command line:
+
+```bash
+npm run lint
+```
+
+You should see a message that looks something like this:
+
+```bash
+# ...
+/.../test-google-linter/index.js
+  7:25  error  Missing semicolon  semi
+# (and a bunch of other messages)
 ```
 
 Reference: https://www.youtube.com/watch?v=qhuFviJn-es
