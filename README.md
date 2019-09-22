@@ -43,8 +43,7 @@ package.json
 ```json
   "scripts": {
     ...
-    // insert this:
-    "lint": "eslint ./" // ./
+    "lint": "eslint ./"
   },
 ```
 
