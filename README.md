@@ -1,6 +1,20 @@
 # Learn ESLint with [Linter Rules](https://github.com/google/eslint-config-google) for the [Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
 
-## Secret Sauce
+## To Use this Repo as a Template
+
+```bash
+npm install
+```
+
+Now you can see your .js code get auto-annotated with underlines in your code editor.
+
+You can now also run a check in command line:
+
+```bash
+npm run lint
+```
+
+## Secret Sauce (When Starting from Scratch)
 
 ```bash
 npm install --save-dev eslint
