@@ -1,6 +1,6 @@
 # Learn ESLint with [Linter Rules](https://github.com/google/eslint-config-google) for the [Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
 
-## Secret Sauce:
+## Secret Sauce
 
 ```bash
 npm install --save-dev eslint
