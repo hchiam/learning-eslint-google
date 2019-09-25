@@ -62,4 +62,16 @@ You should see a message that looks something like this:
 # (and a bunch of other messages)
 ```
 
-Reference: https://www.youtube.com/watch?v=qhuFviJn-es
+## Bonus Bonus: Auto-fix Problems
+
+`npm run lint` will tell you what problems there are, but `eslint --fix <filename.js>` will perform fixes that can be automatically done on `index.js`:
+
+```bash
+eslint --fix index.js
+```
+
+# References:
+
+https://www.youtube.com/watch?v=qhuFviJn-es
+
+https://eslint.org/docs/user-guide/command-line-interface
