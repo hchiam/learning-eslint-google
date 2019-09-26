@@ -70,6 +70,14 @@ You should see a message that looks something like this:
 eslint --fix index.js
 ```
 
+## Yet Another Bonus: Auto-Run Stuff Upon File Edits
+
+`nodemon -x 'npm run lint'` will auto-run the linter checks and print the results to the CLI every time you save index.js
+
+`nodemon index.js` will auto-run the file every time you save index.js
+
+`nodemon -x 'npm run lint; node index.js'` will do both of the above.
+
 # References:
 
 https://www.youtube.com/watch?v=qhuFviJn-es
