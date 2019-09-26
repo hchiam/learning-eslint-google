@@ -72,7 +72,7 @@ eslint --fix index.js
 
 ## Yet Another Bonus: Auto-Run Stuff Upon File Edits
 
-### If you install `nodemon`, you can do these cool things
+### If you install `nodemon`, you can do these cool things:
 
 `nodemon -x 'npm run lint'` will auto-run the linter checks and print the results to the CLI every time you save index.js
 
@@ -80,7 +80,7 @@ eslint --fix index.js
 
 `nodemon -x 'npm run lint; node index.js'` will do both of the above.
 
-### To install `nodemon`, do this
+### To install `nodemon`, do this:
 
 ```bash
 npm i -g nodemon # i = install; -g = globally
