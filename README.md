@@ -17,8 +17,6 @@ npm run lint
 ## Secret Sauce (When Starting from Scratch)
 
 ```bash
-npm install --save-dev eslint
-# or:
 npm install --save-dev eslint eslint-config-google
 ```
 
