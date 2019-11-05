@@ -18,6 +18,8 @@ npm run lint
 
 ```bash
 npm install --save-dev eslint
+# or:
+npm install --save-dev eslint eslint-config-google
 ```
 
 ```bash
