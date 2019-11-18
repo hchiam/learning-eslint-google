@@ -43,7 +43,7 @@ package.json
 ```json
   "scripts": {
     ...
-    "lint": "eslint ./"
+    "lint": "eslint index.js" /* "eslint ./" if you want it for all .js files */
   },
 ```
 
@@ -79,6 +79,8 @@ eslint --fix index.js
 `nodemon index.js` will auto-run the file every time you save index.js
 
 `nodemon -x 'npm run lint; node index.js'` will do both of the above.
+
+`nodemon -w index.js -x 'npm run lint; plato -r -d report index.js; node index.js; open report/index.html'` will auto-rerun all of the above, but also give you a report that includes [MI score](https://github.com/hchiam/learning-js/blob/master/README.md#get-code-maintainability-index-mi-score) (after you've run `npm install -g plato` once).
 
 ### To install `nodemon`, do this:
 
