@@ -99,3 +99,7 @@ npm install --save-dev nodemon # <- this saves into dev dependencies
 https://www.youtube.com/watch?v=qhuFviJn-es
 
 https://eslint.org/docs/user-guide/command-line-interface
+
+## You Might Also Like:
+
+https://github.com/hchiam/eslint-and-jest
