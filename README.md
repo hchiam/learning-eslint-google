@@ -1,5 +1,11 @@
 # Learn ESLint with [Linter Rules](https://github.com/google/eslint-config-google) for the [Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
 
+Example command:
+
+```bash
+eslint index.js
+```
+
 ## To Use this Repo as a Template
 
 ```bash
