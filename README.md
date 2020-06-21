@@ -3,7 +3,7 @@
 Example command:
 
 ```bash
-eslint index.js
+eslint *.js
 ```
 
 ## To Use this Repo as a Template
