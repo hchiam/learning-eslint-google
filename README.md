@@ -1,4 +1,6 @@
-# Learn ESLint with [Linter Rules](https://github.com/google/eslint-config-google) for the [Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
+# Learning ESLint
+
+With [Linter Rules](https://github.com/google/eslint-config-google) from the [Google JS Style Guide](https://google.github.io/styleguide/jsguide.html)
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
